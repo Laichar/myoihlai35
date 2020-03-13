@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* 國家名字和它們在標籖圖樣表的x, y座標 */
+.arrow.down:hover:before {
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  width: 210px;
+  padding: 5px;
+  border: 0px solid #333;
+  background: #000000;
+  content: "降帖十分無禮，請勿把講述遊戲外事宜帖子降帖。";
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-top: 5px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
+.arrow.up:hover:before {
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  width: 210px;
+  padding: 5px;
+  border: 0px solid #333;
+  background: #000000;
+  content: "推";
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-top: 5px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
+.flair {
+  background: url(%%flairsheet%%) no-repeat -9999px;
+  border: 0;
+  padding: 0;
+  text-indent: -9999px;
+  margin-right: 3px;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(%%flairsheet%%);
+  vertical-align: middle;
+  border-width: 1;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding: 0;
+  background-color: transparent;
+  cursor: help;
+  border-radius: 0px;
+}
+
+.sidebox .submit .submit-link {
+  display: none;
+}
+
+/*# sourceMappingURL=css.css.map */
